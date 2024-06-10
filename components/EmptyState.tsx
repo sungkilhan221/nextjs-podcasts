@@ -28,7 +28,7 @@ const EmptyState = ({
           </p>
         )}
         {buttonLink && (
-          <Button className="bg-orange-1">
+          <Button className="bg-pink-500">
             <Link href={buttonLink} className="gap-1 flex">
               <Image
                 src="/icons/discover.svg"

@@ -9,10 +9,10 @@ export default function RootLayout({
     <main className="relative h-screen w-full">
       <div className="absolute size-full">
         <Image
-          src="/images/bg-img.png"
+          src="/images/podcasts-login-bg.jpg"
           alt="background"
           fill
-          className="size-full"
+          className="object-cover"
         />
       </div>
 

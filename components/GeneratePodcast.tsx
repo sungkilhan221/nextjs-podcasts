@@ -86,7 +86,7 @@ const GeneratePodcast = (props: GeneratePodcastProps) => {
           AI prompt to generate Podcast
         </Label>
         <Textarea
-          className="input-class font-light focus-visible:ring-offset-orange-1"
+          className="input-class font-light focus-visible:ring-offset-pink-500"
           placeholder="Provide text to generate audio"
           rows={5}
           value={props.voicePrompt}
@@ -97,7 +97,7 @@ const GeneratePodcast = (props: GeneratePodcastProps) => {
       <div className="mt-5 w-full max-w-[200px]">
         <Button
           type="submit"
-          className="text-16 bg-orange-1 py-4 font-bold text-white-1"
+          className="text-16 bg-pink-500 py-4 font-bold text-white-1"
           onClick={generatePodcast}
         >
           {isGenerating ? (
